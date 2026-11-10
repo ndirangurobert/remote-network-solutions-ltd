@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#24170f">
+  <meta name="description" content="Remote Network Solutions Ltd — networking, structured cabling, web development and IT support in Kenya.">
+  <title>Remote Network Solutions Ltd | Technology That Connects</title>
+  <style>
+    :root{--ink:#24170f;--coffee:#3b2619;--brown:#70452b;--copper:#b7794b;--sand:#ead8c4;--cream:#f8f3ec;--white:#fffdf9;--muted:#75685e;--line:rgba(59,38,25,.14);--shadow:0 24px 70px rgba(36,23,15,.13)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}
+    header{position:sticky;top:0;z-index:20;background:rgba(36,23,15,.96);backdrop-filter:blur(14px);color:#fff;border-bottom:1px solid rgba(255,255,255,.1)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.02em}.mark{width:42px;height:42px;border-radius:13px;background:linear-gradient(145deg,#d5a477,#75462b);display:grid;place-items:center;color:#24170f;font-weight:900;box-shadow:inset 0 1px 0 #fff8}.brand small{display:block;font-size:10px;letter-spacing:.19em;color:#d8b99d;font-weight:600}.links{display:flex;gap:25px;align-items:center;font-size:13px;color:#e8d9cb}.links a:hover{color:#e3b68d}.navbtn,.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:12px 20px;font-size:13px;font-weight:750;transition:.2s}.navbtn{background:#d6a477;color:#24170f}.btn.primary{background:#bd8254;color:#24170f;box-shadow:0 12px 28px #bd825433}.btn.secondary{border:1px solid #ffffff55;color:white}.btn:hover,.navbtn:hover{transform:translateY(-2px);filter:brightness(1.06)}
+    .hero{position:relative;overflow:hidden;background:radial-gradient(ellipse at 78% 22%,#986744 0,transparent 35%),linear-gradient(120deg,#21150f 0%,#42291b 56%,#70452b 100%);color:white;padding:104px 0 110px}.hero:before{content:"";position:absolute;width:560px;height:560px;border:1px solid #ffffff18;border-radius:50%;right:-130px;top:-180px;box-shadow:0 0 0 45px #ffffff08,0 0 0 95px #ffffff06}.hero-grid{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}.eyebrow{color:#e0b58f;text-transform:uppercase;letter-spacing:.2em;font-size:11px;font-weight:800}.hero h1{font-size:clamp(42px,6vw,76px);line-height:1.03;letter-spacing:-.055em;margin:20px 0}.hero h1 span{color:#dfb48c}.hero p{max-width:580px;color:#e5d7ca;font-size:17px}.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}.hero-note{margin-top:30px;color:#d0b9a5;font-size:12px;letter-spacing:.04em}.visual{min-height:380px;position:relative;display:grid;place-items:center;perspective:1000px}.orb{width:300px;height:300px;border-radius:50%;background:radial-gradient(circle at 32% 25%,#f0d3b0,#b77b4e 24%,#60391f 62%,#28180f 78%);box-shadow:inset -22px -28px 50px #1b100d99,0 35px 80px #100a0766;position:relative;transform:rotate(-18deg)}.orb:before,.orb:after{content:"";position:absolute;border:1px solid #e9c5a2aa;border-radius:50%;inset:-35px 25px;transform:rotate(55deg)}.orb:after{inset:25px -48px;transform:rotate(-35deg);border-color:#f2d6b455}.float-card{position:absolute;background:#fffaf3;color:#2c1b11;border:1px solid #fff8;border-radius:16px;padding:16px 19px;box-shadow:0 18px 40px #160d0980}.float-card strong{display:block;font-size:13px}.float-card span{font-size:11px;color:#806a58}.fc1{top:30px;right:0}.fc2{bottom:36px;left:0}
+    .trust{background:var(--white);border-bottom:1px solid var(--line)}.trustrow{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;padding:24px 0}.trustitem{font-size:12px;color:var(--muted);display:flex;align-items:center;gap:10px}.trustitem b{color:var(--brown);font-size:17px}
+    section{padding:92px 0}.section-head{max-width:680px;margin-bottom:42px}.kicker{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--brown);font-weight:850}.section-head h2{font-size:clamp(32px,4vw,49px);letter-spacing:-.045em;line-height:1.1;margin:12px 0}.section-head p{color:var(--muted);font-size:16px}.services{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service{background:var(--white);padding:28px;border:1px solid var(--line);border-radius:20px;box-shadow:0 8px 30px #38231308;transition:.25s}.service:hover{transform:translateY(-6px);box-shadow:var(--shadow)}.icon{width:52px;height:52px;border-radius:15px;background:#efe0d0;color:#70452b;display:grid;place-items:center;font-size:23px;margin-bottom:22px}.service h3{font-size:19px;margin:0 0 9px}.service p{font-size:14px;color:var(--muted);margin:0 0 18px}.service ul{padding-left:18px;margin:0;color:#65564b;font-size:13px}.service li{padding:4px 0}
+    .about{background:#efe5d9}.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:65px;align-items:center}.about-art{min-height:380px;border-radius:28px;background:linear-gradient(145deg,#392417,#815333);position:relative;overflow:hidden;box-shadow:var(--shadow);display:grid;place-items:center}.about-art:before{content:"RNS";font-size:120px;font-weight:950;letter-spacing:-.09em;color:#ffffff13}.about-art:after{content:"CONNECT  •  BUILD  •  SUPPORT";position:absolute;bottom:28px;color:#e8c9aa;letter-spacing:.2em;font-size:10px}.about-copy h2{font-size:clamp(32px,4vw,48px);line-height:1.1;letter-spacing:-.04em;margin:12px 0 18px}.about-copy p{color:#67584d}.values{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:26px}.value{border-left:3px solid var(--copper);padding:4px 0 4px 13px}.value b{display:block;font-size:13px}.value span{font-size:12px;color:var(--muted)}
+    .process{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.step{border-top:1px solid var(--line);padding-top:18px}.step em{font-style:normal;color:var(--copper);font-size:12px;font-weight:900;letter-spacing:.12em}.step h3{font-size:16px;margin:9px 0 5px}.step p{font-size:13px;color:var(--muted);margin:0}
+    .cta{background:linear-gradient(120deg,#2a1a11,#654027);color:#fff;padding:70px 0}.cta-row{display:flex;justify-content:space-between;align-items:center;gap:30px}.cta h2{font-size:clamp(28px,4vw,43px);line-height:1.12;margin:10px 0}.cta p{color:#ddcbbb;margin:0}
+    .contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:45px}.contact-info h2{font-size:42px;line-height:1.1;letter-spacing:-.04em;margin:12px 0}.contact-info p{color:var(--muted)}.contact-list{display:grid;gap:15px;margin-top:28px}.contact-line{display:flex;gap:13px;align-items:center}.contact-line .icon{margin:0;width:44px;height:44px;font-size:18px}.contact-line small{display:block;color:var(--muted);font-size:11px}.contact-line b{font-size:14px}.contact-panel{background:var(--white);border:1px solid var(--line);padding:30px;border-radius:22px;box-shadow:var(--shadow)}.contact-panel h3{margin:0 0 8px;font-size:22px}.contact-panel p{color:var(--muted);font-size:14px}.contact-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.contact-actions .btn{background:var(--coffee);color:#fff}.contact-actions .btn.alt{background:#efe0d0;color:var(--coffee)}
+    footer{background:#1e130d;color:#d9c7b7;padding:28px 0}.foot{display:flex;justify-content:space-between;gap:20px;align-items:center;font-size:12px}.foot span{color:#a88f7b}
+    @media(max-width:800px){.links{display:none}.hero{padding:75px 0}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.visual{min-height:310px}.orb{width:230px;height:230px}.services{grid-template-columns:1fr 1fr}.trustrow{grid-template-columns:1fr 1fr}.process{grid-template-columns:1fr 1fr}.about-art{min-height:260px}.cta-row{align-items:flex-start;flex-direction:column}}
+    @media(max-width:520px){.wrap{width:min(100% - 30px,1160px)}.nav{height:68px}.brand{font-size:13px}.navbtn{padding:10px 14px}.services{grid-template-columns:1fr}.hero h1{font-size:45px}.trustrow{gap:12px}.trustitem{font-size:11px}.process{grid-template-columns:1fr 1fr}.values{grid-template-columns:1fr}.foot{align-items:flex-start;flex-direction:column}section{padding:70px 0}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home" aria-label="Remote Network Solutions home"><span class="mark">RNS</span><span>REMOTE NETWORK<small>SOLUTIONS LTD</small></span></a>
+    <nav class="links" aria-label="Main navigation"><a href="#services">Services</a><a href="#about">About</a><a href="#approach">Our approach</a><a href="#contact">Contact</a></nav>
+    <a class="navbtn" href="#contact">Let's talk ↗</a>
+  </div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Technology • Connectivity • Support</div>
+        <h1>Technology that <span>connects</span> your world.</h1>
+        <p>Reliable networking, thoughtful web experiences and practical IT support for people and businesses ready to move forward.</p>
+        <div class="actions"><a class="btn primary" href="#services">Explore our services ↗</a><a class="btn secondary" href="#contact">Contact us</a></div>
+        <div class="hero-note">NETWORKING &nbsp; / &nbsp; WEB DEVELOPMENT &nbsp; / &nbsp; IT CONSULTATION</div>
+      </div>
+      <div class="visual" aria-label="Abstract 3D copper technology illustration"><div class="orb"></div><div class="float-card fc1"><strong>Connected by design</strong><span>Networks built with purpose</span></div><div class="float-card fc2"><strong>Smart digital solutions</strong><span>Ideas turned into useful tools</span></div></div>
+    </div>
+  </section>
+  <div class="trust"><div class="wrap trustrow"><div class="trustitem"><b>⌘</b> Network solutions</div><div class="trustitem"><b>⌁</b> Structured cabling</div><div class="trustitem"><b>◇</b> Web design & development</div><div class="trustitem"><b>◎</b> IT consultation & support</div></div></div>
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head"><div class="kicker">What we do</div><h2>Practical technology services, built around your needs.</h2><p>From a dependable network foundation to a polished online presence, we help make technology work better for you.</p></div>
+      <div class="services">
+        <article class="service"><div class="icon">⌘</div><h3>Networking Solutions</h3><p>Plan and support connected environments that help teams, devices and information communicate.</p><ul><li>LAN and small office networks</li><li>Router and switch configuration</li><li>Wireless network planning</li><li>Network troubleshooting</li></ul></article>
+        <article class="service"><div class="icon">⌁</div><h3>Structured Cabling</h3><p>Organised cabling infrastructure designed for dependable connectivity and easier maintenance.</p><ul><li>Ethernet cabling and termination</li><li>RJ45 and patch-panel planning</li><li>Network points and cable organisation</li><li>Basic testing and documentation</li></ul></article>
+        <article class="service"><div class="icon">▣</div><h3>Web Development</h3><p>Responsive websites and web-based tools that clearly present your brand and services.</p><ul><li>Business websites and landing pages</li><li>Website design and development</li><li>PHP and database-backed solutions</li><li>Website updates and improvements</li></ul></article>
+        <article class="service"><div class="icon">⚙</div><h3>IT Consultation</h3><p>Clear, practical guidance to help you choose, plan and use technology with confidence.</p><ul><li>IT needs assessment</li><li>Technology planning</li><li>Hardware and software guidance</li><li>Digital workflow advice</li></ul></article>
+        <article class="service"><div class="icon">⌕</div><h3>IT Support</h3><p>Help with everyday technology issues, setup and keeping systems working smoothly.</p><ul><li>Computer setup and troubleshooting</li><li>Software installation support</li><li>Basic system maintenance</li><li>Connectivity support</li></ul></article>
+        <article class="service"><div class="icon">◈</div><h3>Network Design</h3><p>Structured planning for homes, offices and growing organisations before implementation.</p><ul><li>Network layouts and diagrams</li><li>IP addressing and subnet planning</li><li>Device and access-point placement</li><li>Scalable network recommendations</li></ul></article>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="wrap about-grid">
+      <div class="about-art" aria-label="Remote Network Solutions brand graphic"></div>
+      <div class="about-copy"><div class="kicker">About the company</div><h2>Making technology simpler, smarter and more connected.</h2><p>Remote Network Solutions Ltd is a technology-focused business concept centred on networking, web development and IT consultation. Our aim is to help clients find practical solutions that fit their goals, their environment and their budget.</p><p>We value clear communication, thoughtful planning and solutions that are easy to understand and maintain.</p><div class="values"><div class="value"><b>Client-focused</b><span>Start by understanding the real need.</span></div><div class="value"><b>Practical thinking</b><span>Choose solutions with a clear purpose.</span></div><div class="value"><b>Reliable foundations</b><span>Build with organisation and care.</span></div><div class="value"><b>Continuous learning</b><span>Keep improving with technology.</span></div></div></div>
+    </div>
+  </section>
+  <section id="approach">
+    <div class="wrap">
+      <div class="section-head"><div class="kicker">How we work</div><h2>A straightforward process from idea to solution.</h2><p>Good results begin with listening, planning and making sure the solution fits the job.</p></div>
+      <div class="process"><div class="step"><em>01 / DISCOVER</em><h3>Understand</h3><p>We learn about your goals, challenges and current setup.</p></div><div class="step"><em>02 / PLAN</em><h3>Recommend</h3><p>We outline a suitable approach, priorities and next steps.</p></div><div class="step"><em>03 / BUILD</em><h3>Implement</h3><p>We develop or configure the solution with care and clarity.</p></div><div class="step"><em>04 / SUPPORT</em><h3>Improve</h3><p>We help review, maintain and improve the result over time.</p></div></div>
+    </div>
+  </section>
+  <section class="cta"><div class="wrap cta-row"><div><div class="eyebrow">Have a project in mind?</div><h2>Let's build a better connection.</h2><p>Tell us what you need. We'll help you explore the next step.</p></div><a class="btn primary" href="#contact">Start a conversation ↗</a></div></section>
+  <section id="contact">
+    <div class="wrap contact-grid">
+      <div class="contact-info"><div class="kicker">Get in touch</div><h2>Let's talk about your next solution.</h2><p>Reach out about networking, a website, IT support or a technology project.</p><div class="contact-list">
+        <a class="contact-line" href="tel:+254712756916"><span class="icon">☎</span><span><small>Call us</small><b>0712 756 916</b></span></a>
+        <a class="contact-line" href="mailto:ndirangurobert50@gmail.com"><span class="icon">✉</span><span><small>Email</small><b>ndirangurobert50@gmail.com</b></span></a>
+        <a class="contact-line" href="https://wa.me/254712756916" target="_blank" rel="noopener"><span class="icon">◉</span><span><small>WhatsApp</small><b>Chat with us</b></span></a>
+      </div></div>
+      <div class="contact-panel"><h3>Remote Network Solutions Ltd</h3><p>Networking • Web Development • IT Consultation</p><p>For enquiries and project discussions, contact us using any of the options below. We look forward to hearing about what you're working on.</p><div class="contact-actions"><a class="btn" href="https://wa.me/254712756916" target="_blank" rel="noopener">Message on WhatsApp ↗</a><a class="btn alt" href="mailto:ndirangurobert50@gmail.com">Send an email ↗</a></div></div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap foot"><div><b>REMOTE NETWORK SOLUTIONS LTD</b><br><span>Technology that connects.</span></div><div>© <span id="year"></span> Remote Network Solutions Ltd. All rights reserved.</div></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
